@@ -39,8 +39,9 @@ The objective of the model is to minimize the loss of:
 
 You may propose to use Singular Value Decomposition(SVD) to solve this problem. However, as our matrix A is very sparse, SVD will likely to propose an all zero solution. In reality, it is often used Weighted Matrix Factorization.
 
-<img src = images/WFM2.png height = 200>
 <img src = images/WFM1.png height = 100>
+
+<img src = images/WFM2.png height = 50>
 
 
 ### Content-based collobrative filtering
