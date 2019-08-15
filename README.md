@@ -11,7 +11,7 @@ A similarity measure is a function that takes a pair of embeddings and returns a
 
 There are three main function for similarity measure: cosine, dot product and Euclidean distance.
 
-Items that appear very frequently in the training set (for example, popular YouTube videos) tend to have embeddings with large norms. If capturing popularity information is desirable, then you should prefer dot product. However, if you're not careful, the popular items may end up dominating the recommendations. In practice, we often use a modulation to reduce the influence of the norm in the dot product: <img src = images/dot_product_eq.png height = 35>
+Items that appear very frequently in the training set (for example, popular YouTube videos) tend to have embeddings with large norms. If capturing popularity information is desirable, then you should prefer dot product. However, if you're not careful, the popular items may end up dominating the recommendations. In practice, we often use a modulation to reduce the influence of the norm in the dot product: <img src = images/dot_product_eq.png height = 30>
 
 #### Scoring
 Next, another model scores and ranks the candidates in order to select the set of items (on the order of 10) to display to the user. Since this model evaluates a relatively small subset of items, the system can use a more precise model relying on additional queries.
@@ -30,6 +30,11 @@ A content-based only model will recommend items based on similar items. If you l
 Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is important to break the symmetricity of the matrix. (3) Mean normalization is used to help the optimization process.
 
 <img src = images/MF.png height = 600>
+
+The full matrix has O(mn) dimensions, while the U and V have (O(m+n)d). In reality, since d is much smaller than m or n, it reduces the complexity. 
+
+The objective of the model is to minimize the loss of:
+<img src = images/loss.png height = 30>
 
 ### Content-based collobrative filtering
 
