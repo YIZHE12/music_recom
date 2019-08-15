@@ -25,6 +25,9 @@ Finally, the system must take into account additional constraints for the final 
 
 A content-based only model will recommend items based on similar items. If you like item A, and item B is most similar to item A, then it will be recommended to you.
 
+By adding new vector making the user space to a higher dimension space, we can add information, such as time and location into the user profile for collobrative filtering. 
+
+
 ### Collobrative filtering
 
 Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is important to break the symmetricity of the matrix. (3) Mean normalization is used to help the optimization process.
@@ -55,6 +58,11 @@ One of the main issue of collobrative filtering is cold-start problem: for item 
 
 This is often been solved by:
 
+### Hybrid
+
+LightFM IS a hybrid matrix factorisation model representing users and items as linear combinations of their content features’ latent factors. The model outperforms both collaborative and content-based models in cold-start or sparse interaction data scenarios (using both user and item metadata).
+
+
 #### Projection in WALS
 
 One iteration in WALS: the user embeddings are kept fixed, and the system solves for the embedding of item. The same can be done for a new user.
@@ -65,9 +73,6 @@ The system can approximate its embedding by averaging the embeddings of items fr
 
 ### Content-based collobrative filtering
 
-Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
-
-By adding new vector making the user space to a higher dimension space, we can add information, such as time and location into the user profile for collobrative filtering. 
 
 #### Advantages
 
