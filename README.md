@@ -21,6 +21,10 @@ Finally, the system must take into account additional constraints for the final 
 
 ## Types of recommendation systems
 
+### Content-based 
+
+A content-based only model will recommend items based on similar items. If you like item A, and item B is most similar to item A, then it will be recommended to you.
+
 ### Collobrative filtering
 
 Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is important to break the symmetricity of the matrix. (3) Mean normalization is used to help the optimization process.
