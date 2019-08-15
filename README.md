@@ -37,12 +37,31 @@ The objective of the model is to minimize the loss of:
 
 <img src = images/loss.png height = 60>
 
-You may propose to use Singular Value Decomposition(SVD) to solve this problem. However, as our matrix A is very sparse, SVD will likely to propose an all zero solution. In reality, it is often used Weighted Matrix Factorization.
+You may propose to use Singular Value Decomposition(SVD) to solve this problem. However, as our matrix A is very sparse, SVD will likely to propose an all zero solution. In reality, it is often used Weighted Matrix Factorization: A sum over observed entries and a sum over unobserved entries (treated as zeroes).
 
 <img src = images/WFM1.png height = 100>
 
 <img src = images/WFM2.png height = 50>
 
+Common algorithms to minimize the objective function include:
+
+1. Stochastic gradient descent (SGD)
+
+2. Weighted Alternating Least Squares (WALS)
+
+WALS converge faster and handle the unobserved entries better.
+
+One of the main issue of collobrative filtering is cold-start problem: for item or user that it hasn't seen before.
+
+This is often been solved by:
+
+#### Projection in WALS
+
+One iteration in WALS: the user embeddings are kept fixed, and the system solves for the embedding of item. The same can be done for a new user.
+
+#### Averaging
+
+The system can approximate its embedding by averaging the embeddings of items from the same category
 
 ### Content-based collobrative filtering
 
