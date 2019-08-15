@@ -12,6 +12,20 @@ By adding new vector making the user space to a higher dimension space, we can a
 #### Candidate Generation
 In this first stage, the system starts from a potentially huge corpus and generates a much smaller subset of candidates. For example, the candidate generator in YouTube reduces billions of videos down to hundreds or thousands. The model needs to evaluate queries quickly given the enormous size of the corpus. A given model may provide multiple candidate generators, each nominating a different subset of candidates.
 
+Both content-based and collaborative filtering map each item and each query (or context) to an embedding vector.
+
+A similarity measure is a function that takes a pair of embeddings and returns a scalar measuring their similarity. 
+
+There are three main function for similarity measure: 
+
+cosine
+
+dot product
+
+Euclidean distance
+
+Items that appear very frequently in the training set (for example, popular YouTube videos) tend to have embeddings with large norms. If capturing popularity information is desirable, then you should prefer dot product. However, if you're not careful, the popular items may end up dominating the recommendations. 
+
 #### Scoring
 Next, another model scores and ranks the candidates in order to select the set of items (on the order of 10) to display to the user. Since this model evaluates a relatively small subset of items, the system can use a more precise model relying on additional queries.
 
