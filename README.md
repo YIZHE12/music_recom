@@ -7,7 +7,7 @@ Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is 
 2. Content-based collobrative filtering
 
 By adding new vector making the user space to a higher dimension space, we can add information, such as time and location into the user profile for collobrative filtering. 
-## Process
+## primary components of a recommender system
 
 #### Candidate Generation
 In this first stage, the system starts from a potentially huge corpus and generates a much smaller subset of candidates. For example, the candidate generator in YouTube reduces billions of videos down to hundreds or thousands. The model needs to evaluate queries quickly given the enormous size of the corpus. A given model may provide multiple candidate generators, each nominating a different subset of candidates.
