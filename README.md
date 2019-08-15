@@ -79,7 +79,7 @@ The system can approximate its embedding by averaging the embeddings of items fr
 
 ### Hybrid
 
-LightFM IS a hybrid matrix factorisation model representing users and items as linear combinations of their content features’ latent factors. The model outperforms both collaborative and content-based models in cold-start or sparse interaction data scenarios (using both user and item metadata).
+LightFM is a hybrid matrix factorisation model representing users and items as linear combinations of their content features’ latent factors. The model outperforms both collaborative and content-based models in cold-start or sparse interaction data scenarios (using both user and item metadata).
 
 
 
