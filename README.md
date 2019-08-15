@@ -1,27 +1,4 @@
 # music_recommend
-## Type of recommendation system
-1. Collobrative filtering
-
-Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is important to break the symmetricity of the matrix. (3) Mean normalization is used to help the optimization process.
-
-2. Content-based collobrative filtering
-
-Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
-
-By adding new vector making the user space to a higher dimension space, we can add information, such as time and location into the user profile for collobrative filtering. 
-
-#### Advantages
-
-The model doesn't need any data about other users, since the recommendations are specific to this user. This makes it easier to scale to a large number of users.
-
-The model can capture the specific interests of a user, and can recommend niche items that very few other users are interested in.
-
-#### Disadvantages
-
-Since the feature representation of the items are hand-engineered to some extent, this technique requires a lot of domain knowledge. Therefore, the model can only be as good as the hand-engineered features.
-
-The model can only make recommendations based on existing interests of the user. In other words, the model has limited ability to expand on the users' existing interests.
-
 
 ## Primary components of a recommender system
 
@@ -41,6 +18,34 @@ Next, another model scores and ranks the candidates in order to select the set o
 
 #### Re-ranking
 Finally, the system must take into account additional constraints for the final ranking. For example, the system removes items that the user explicitly disliked or boosts the score of fresher content. Re-ranking can also help ensure diversity, freshness, and fairness.
+
+## Types of recommendation systems
+
+### Collobrative filtering
+
+Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is important to break the symmetricity of the matrix. (3) Mean normalization is used to help the optimization process.
+
+<img src = images/MF.png height = 400>
+
+### Content-based collobrative filtering
+
+Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
+
+By adding new vector making the user space to a higher dimension space, we can add information, such as time and location into the user profile for collobrative filtering. 
+
+#### Advantages
+
+The model doesn't need any data about other users, since the recommendations are specific to this user. This makes it easier to scale to a large number of users.
+
+The model can capture the specific interests of a user, and can recommend niche items that very few other users are interested in.
+
+#### Disadvantages
+
+Since the feature representation of the items are hand-engineered to some extent, this technique requires a lot of domain knowledge. Therefore, the model can only be as good as the hand-engineered features.
+
+The model can only make recommendations based on existing interests of the user. In other words, the model has limited ability to expand on the users' existing interests.
+
+
 ## Resource
 
 GCP TF solutions
