@@ -13,6 +13,9 @@ Resource:
 GCP TF solutions
 https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview
 
+https://colab.research.google.com/github/google/eng-edu/blob/master/ml/recommendation-systems/recommendation-systems.ipynb?utm_source=ss-recommendation-systems&utm_campaign=colab-external&utm_medium=referral&utm_content=recommendation-systems
+
+
 ProdToVec
 https://arxiv.org/pdf/1607.07326.pdf
 
