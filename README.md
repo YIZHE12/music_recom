@@ -13,19 +13,20 @@ Resource:
 GCP TF solutions
 https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview
 
+Colab:
+https://developers.google.com/machine-learning/recommendation/labs/movie-rec-programming-exercise
+
 https://colab.research.google.com/github/google/eng-edu/blob/master/ml/recommendation-systems/recommendation-systems.ipynb?utm_source=ss-recommendation-systems&utm_campaign=colab-external&utm_medium=referral&utm_content=recommendation-systems
 
 
-ProdToVec
+ProdToVec Paper:
 https://arxiv.org/pdf/1607.07326.pdf
 
-LightFM
+LightFM Package:
 https://github.com/lyst/lightfm
 
-Collaborative embedding
-https://towardsdatascience.com/collaborative-embeddings-for-lipstick-recommendations-98eccfa816bd
-
-
+Articles:
+Collaborative embedding https://towardsdatascience.com/collaborative-embeddings-for-lipstick-recommendations-98eccfa816bd
 
 
 Data:
