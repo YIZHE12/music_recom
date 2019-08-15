@@ -25,7 +25,7 @@ Finally, the system must take into account additional constraints for the final 
 
 Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is important to break the symmetricity of the matrix. (3) Mean normalization is used to help the optimization process.
 
-<img src = images/MF.png height = 400>
+<img src = images/MF.png height = 600>
 
 ### Content-based collobrative filtering
 
