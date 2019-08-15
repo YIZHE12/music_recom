@@ -20,7 +20,7 @@ There are three main function for similarity measure: cosine, dot product and Eu
 
 Items that appear very frequently in the training set (for example, popular YouTube videos) tend to have embeddings with large norms. If capturing popularity information is desirable, then you should prefer dot product. However, if you're not careful, the popular items may end up dominating the recommendations. In practice, we often use a modulation to reduce the influence of the norm in the dot product: 
 
-<img src = images/images/dot_product_eq.png height = 50>
+<img src = images/dot_product_eq.png height = 50>
 
 #### Scoring
 Next, another model scores and ranks the candidates in order to select the set of items (on the order of 10) to display to the user. Since this model evaluates a relatively small subset of items, the system can use a more precise model relying on additional queries.
