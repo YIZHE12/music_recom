@@ -34,7 +34,7 @@ Note: (1) In the cost function, there is no X0 = 1. (2) Random initilization is 
 The full matrix has O(mn) dimensions, while the U and V have (O(m+n)d). In reality, since d is much smaller than m or n, it reduces the complexity. 
 
 The objective of the model is to minimize the loss of:
-<img src = images/loss.png height = 30>
+<img src = images/loss.png height = 60>
 
 ### Content-based collobrative filtering
 
