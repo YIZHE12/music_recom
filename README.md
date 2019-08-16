@@ -107,3 +107,7 @@ Collaborative embedding https://towardsdatascience.com/collaborative-embeddings-
 Data:
 http://millionsongdataset.com/
 https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85
+
+
+
+https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation
