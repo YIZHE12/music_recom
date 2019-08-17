@@ -25,7 +25,6 @@ Finally, the system must take into account additional constraints for the final 
 
 A content-based only model will recommend items based on similar items. If you like item A, and item B is most similar to item A, then it will be recommended to you.
 
-By adding new vector making the user space to a higher dimension space, we can add information, such as time and location into the user profile for collobrative filtering. 
 
 #### Advantages
 
