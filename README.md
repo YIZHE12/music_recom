@@ -1,4 +1,4 @@
-# music_recommend
+# Music recommendation system in Python
 
 ## Primary components of a recommender system
 
