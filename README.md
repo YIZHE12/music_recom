@@ -78,7 +78,9 @@ The system can approximate its embedding by averaging the embeddings of items fr
 
 ### Hybrid
 
-LightFM is a hybrid matrix factorisation model representing users and items as linear combinations of their content features’ latent factors. The model outperforms both collaborative and content-based models in cold-start or sparse interaction data scenarios (using both user and item metadata).
+In this repo, I showed how to build a collobrative fitltering model for music recommendation, using regularlized Matrix Factorization. You can open the notebook in google Colab clicking the button on top of the notebook and in the 'Make your own prediction to build a play list', make USER_RATINGS = True. Run the codes in the following sections and a link will pop up to ask you give authoration to use the google spreadsheet API. After that, you can follow the instruciton of the notebook to give a score between 0-1 to music you like in the google spreadsheet. Your data will then used to create a music recommendation list.
+
+I also built a Word2Vec model to compare similarity between song title in order to recommend songs that the recommendation system hasn't trained on. However, in reality, this should be replaced by the lyrics instead of song titles to have more relevant information.
 
 
 
