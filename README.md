@@ -63,7 +63,7 @@ Common algorithms to minimize the objective function include:
 
 2. Weighted Alternating Least Squares (WALS)
 
-WALS converge faster and handle the unobserved entries better.
+WALS converge faster and handle the unobserved entries better. SGD need to combine with negative sampling and gravity to handle unobserved data. Negative sampling only modify a small percentage of the weights, rather than all of them, for each training sample. Gravity is a global prior that pushes the prediction of any pair towards zero.
 
 One of the main issue of collobrative filtering is cold-start problem: for item or user that it hasn't seen before.
 
