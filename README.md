@@ -92,6 +92,8 @@ http://charuaggarwal.net/Recommender-Systems.pdf
 
 https://pdfs.semanticscholar.org/5d1d/d378962c7601526f65f69e408f8800a0d3c4.pdf
 
+https://link.springer.com/content/pdf/10.1007%2Fs11257-011-9112-x.pdf
+
 GCP TF solutions
 https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview
 
