@@ -87,6 +87,9 @@ I also built a Word2Vec model to compare similarity between song title in order 
 
 ## Resource
 
+E-book:
+http://charuaggarwal.net/Recommender-Systems.pdf
+
 GCP TF solutions
 https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview
 
