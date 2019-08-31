@@ -115,6 +115,6 @@ Data:
 http://millionsongdataset.com/
 https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85
 
-
-
+Others:
+https://www.kaggle.com/c/msdchallenge/overview
 https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation
