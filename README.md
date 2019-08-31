@@ -122,3 +122,4 @@ https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c8
 Others:
 https://www.kaggle.com/c/msdchallenge/overview
 https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation
+https://www.youtube.com/watch?v=giIXNoiqO_U&list=PL3ZVX5cUMdLbiFgitZszhnMUZHDDEL0rS
