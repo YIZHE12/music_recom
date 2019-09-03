@@ -78,7 +78,7 @@ The system can approximate its embedding by averaging the embeddings of items fr
 
 ### Hybrid
 
-In this repo, I showed how to build a collobrative fitltering model for music recommendation, using regularlized Matrix Factorization. You can open the notebook in google Colab by clicking this button <img src = images/colab.png height = 25>. Note that you will open a read-only version, therefore, please save a copy on your own google drive to edit and run the code.
+In this repo, I showed how to build a collobrative fitltering model for music recommendation, using regularlized Matrix Factorization. You can open the notebook in google Colab by clicking this button [<img src = images/colab.png height = 25>](https://drive.google.com/open?id=1rfn-8XtNh4KG9_KlAi5iVZdv6hTsm9fp). Note that you will open a read-only version, therefore, please save a copy on your own google drive to edit and run the code.
 In the 'Make your own prediction to build a play list', make USER_RATINGS = True. Run the codes in the following sections and a link will pop up to ask you give authoration to use the google spreadsheet API. You will need to give the permission and a code will be generated. Please copy this code and paste it in the notebook section following the instruction on the notebook. After that, you can follow the instruciton of the notebook to give a score between 0-1 to music you like in the google spreadsheet. Your data will then used to create a music recommendation list.
 
 I also built a Word2Vec model to compare similarity between song title in order to recommend songs that the recommendation system hasn't trained on. However, in reality, this should be replaced by the lyrics instead of song titles to have more relevant information.
