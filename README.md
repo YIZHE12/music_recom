@@ -96,6 +96,8 @@ https://link.springer.com/content/pdf/10.1007%2Fs11257-011-9112-x.pdf
 
 https://www.amazon.com/Statistical-Methods-Recommender-Systems-Agarwal-dp-1107036070/dp/1107036070/ref=mt_hardcover?_encoding=UTF8&me=&qid=
 
+https://epdf.pub/recommender-systems-an-introduction.html
+
 GCP TF solutions
 https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview
 
